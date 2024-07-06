@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding-bottom: 58px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-section{
+    background: url(../image/wallpaper16.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #561b59;
+    padding: 50px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #000;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font: bolder;
+}
+    
+header ul li{
+    width: 150px;
+    height: 60px;
+    Line-height: 60px;
+}
+
+header ul li a{ 
+    font: size 20px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+header ul li:hover{
+    background: linear-gradient(#cc66ff,#f4f4f4);
+    color: #000;
+}
+
+header ul li:nth-child(3){
+    border-top: 4px solid #cc33ff;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: rgb(20, 3, 98);
+}
