@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <title>Feedback Form</title>
+        <link rel="icon" href="../image/logo.png">
+        <link rel="stylesheet" type="text/css" href="../css/feedback.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img src="../image/logo.png" alt="" width=80px>
+            <h1>KIDS</h1>
+              <ul>
+                <li>
+                  <a href="index.html" target="_blank">Home</a>
+                </li>
+                <li>
+                  <a href="../PHP/login.php" target="_blank">LogIn</a>
+                </li>
+                <li>
+                  <a href="about_us.html" target="_blank">About Us</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Quiz</a>
+                </li>
+                <li>
+                  <a href="games.html" target="_blank">Games</a>
+                </li>
+              </ul>
+        </header>
+        <div class="formbold-form-wrapper">
+          <h1>FEEDBACK FORM</h1>
+          <img src="../image/feedback.png" alt="Feedback Form" class="formbold-img"/>
+          <form action="https://formbold.com/s/FORM_ID" method="POST">
+          <div class="formbold-mb-6">
+          <label for="qusOne" class="formbold-form-label">
+              How would you rate your overall experience with our website?
+          </label>
+          <div class="formbold-radio-flex">
+            <div class="formbold-radio-group">
+              <label class="formbold-radio-label">
+                <input
+                  class="formbold-input-radio"
+                  type="radio"
+                  name="qusOne"
+                  id="qusOne"
+                />
+                Very Good
+                <span class="formbold-radio-checkmark"></span>
+              </label>
+                  </div>
+                  <div class="formbold-radio-group">
+                    <label class="formbold-radio-label">
+                      <input
+                        class="formbold-input-radio"
+                        type="radio"
+                        name="qusOne"
+                        id="qusOne" required
+                      />
+                      Good
+                      <span class="formbold-radio-checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="formbold-radio-group">
+                    <label class="formbold-radio-label">
+                      <input
+                        class="formbold-input-radio"
+                        type="radio"
+                        name="qusOne"
+                        id="qusOne"
+                      />
+                      Fair
+                      <span class="formbold-radio-checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="formbold-radio-group">
+                    <label class="formbold-radio-label">
+                      <input
+                        class="formbold-input-radio"
+                        type="radio"
+                        name="qusOne"
+                        id="qusOne"
+                      />
+                      Poor
+                      <span class="formbold-radio-checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="formbold-radio-group">
+                    <label class="formbold-radio-label">
+                      <input
+                        class="formbold-input-radio"
+                        type="radio"
+                        name="qusOne"
+                        id="qusOne"
+                      />
+                      Impressive
+                      <span class="formbold-radio-checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="formbold-mb-6">
+                <label for="qusTwo" class="formbold-form-label">
+                  Do we need to add anything else? What do you think?
+                </label>
+          <textarea
+                  rows="6"
+                  name="message"
+                  id="message"
+                  class="formbold-form-input"
+                ></textarea><br>
+          </div> 
+              <div class="formbold-mb-6">
+                <br><label for="qusThree" class="formbold-form-label">
+                  How much satisfied are you with our customer support of our website?
+                </label>
+                <input type="range" value="50" min="30" max="100"><br><br>
+              </div>
+              <div class="formbold-mb-3">
+                <label for="message" class="formbold-form-label">
+                  What should we change in order to live up to your expectations?
+                </label>
+                <textarea
+                  rows="6"
+                  name="message"
+                  id="message"
+                  class="formbold-form-input"
+                ></textarea>
+              </div>
+              <div>
+                <label for="email" class="formbold-form-label"> Email <span>(Only if you want to hear more from us)</span> </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="formbold-form-input"
+                />
+              </div>
+          <br />
+            <button class="formbold-btn" onclick="alert('Thank you for your Feedback !! &#128516')">Send Feedback</button>
+            </form>
+          </div>
+        </div>
+        <footer>
+          <div class="footer-content">
+              <h3>KIDS</h3>
+              <p>Games for kids developed by kids</p>
+              <ul class="socials">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+          </div>
+          <div class="footer-bottom">
+              <p>copyright &copy;2023 KIDS. designed by <span>the team</span></p>
+          </div>
+        </footer>
+  </body>
+</html>
